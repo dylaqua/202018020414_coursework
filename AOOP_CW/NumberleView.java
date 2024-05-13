@@ -12,7 +12,7 @@ public class NumberleView implements Observer {
     private final JTextPane guessHistoryPane = new JTextPane();
     private final JScrollPane scrollPane = new JScrollPane(guessHistoryPane);
     private final Map<Character, JButton> buttonMap = new HashMap<>();
-    private final Map<Character, Color> buttonColorCache = new HashMap<>(); // 按钮颜色缓存
+    private final Map<Character, Color> buttonColorCache = new HashMap<>(); // Button color cache
     private final JButton newGameButton = new JButton("New Game");
     private final Map<Color, Integer> colorPriorityMap = new HashMap<>() {{
         put(Color.GREEN, 3);
